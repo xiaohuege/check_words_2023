@@ -1,0 +1,23 @@
+<view class="step0" wx:if="{{step == 0}}">
+  <button class="type" type="primary" bindtap="bindChooseRange" data-total="2000">常用2000个汉字</button>
+  <button class="type" type="primary" bindtap="bindChooseRange" data-total="3500">常用3500个汉字</button>
+  <button class="type" type="primary" bindtap="bindSearch">成语查询</button>
+</view>
+<view class="step1" wx:if="{{step == 1}}">
+    <view class="header">
+        <view class="score">总分：{{score}}</view>
+        <view class="progress">进度：{{idx + 1}}/{{total}}</view>
+    </view>
+    <view class="content">
+    {{word}}
+    <view class="time">{{time > 0 ? time + '秒' : ''}}</view>
+    <view class="pinyin">{{curPinyin}}</view>
+    </view>
+    <view class="footer">
+        <button class="op" type="primary" bindtap="bindGame" data-type="1">我认识</button>
+        <button class="op" type="warn" bindtap="bindGame" data-type="0">我不认识</button>
+    </view>
+    <view class="finish">
+        <button class="op" type="warn" bindtap="bindFinish">结束游戏</button>
+    </view>
+</view>

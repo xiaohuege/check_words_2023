@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="header">
+    <input placeholder="请数据汉字" confirm-type="search" bindconfirm="bindSearch"/>
+  </view>
+  <view class="content">
+    <view class="title">【{{input}}】相关成语:</view>
+    <view class="list">
+      <view class="item" wx:for="{{words}}" wx:key="index">{{item.name}}({{item.pinyin}})</view>
+    </view>
+  </view>
+</view>

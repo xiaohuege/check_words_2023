@@ -1,0 +1,33 @@
+.container {
+  margin: 30rpx;
+}
+
+.header input {
+  border: 1rpx solid #ccc;
+  padding: 0;
+  margin: 0;
+  height: 2em;
+  line-height: 2em;
+  font-size: 48rpx;
+}
+
+.content {
+  margin-top: 30rpx;
+}
+
+.title {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 16rpx;
+}
+
+.list {
+  padding-bottom: 48rpx;
+}
+
+.list .item {
+  border-bottom: 1rpx solid #ccc;
+  margin-bottom: 24rpx;
+  font-size: 48rpx;
+  letter-spacing: 6rpx;
+}

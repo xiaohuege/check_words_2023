@@ -1,0 +1,51 @@
+.step0 {
+  padding-top: 100rpx;
+}
+.step0 .type {
+  margin: 100rpx;
+}
+
+.step1 {
+  margin: 30rpx;
+}
+
+.header {
+  display: flex;
+}
+
+.header .score {
+  flex: 1;
+  font-size: 28rpx;
+}
+
+.header .progress {
+  flex: 1;
+}
+
+.content {
+  text-align: center;
+  font-size: 400rpx;
+}
+
+.content .pinyin {
+  font-size: 120rpx;
+  height: 182rpx;
+}
+
+.content .time {
+  font-size: 60rpx;
+  color: red;
+  height: 92rpx;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .op {
+  flex-basis: 45%;
+}
+
+.finish {
+  margin-top: 120rpx;
+}

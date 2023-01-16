@@ -1,0 +1,20 @@
+{
+    "pages": [
+        "pages/index",
+        "pages/chengyu"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#265CF0",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#F2F2F2"
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json",
+    "requiredBackgroundModes": [
+        "audio"
+    ],
+    "networkTimeout": {
+        "request": 10000
+    },
+    "lazyCodeLoading": "requiredComponents"
+}
